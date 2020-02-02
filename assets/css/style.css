@@ -1,0 +1,31 @@
+/** 
+* Online Bio layout
+**/
+
+body {
+    width: 960px;
+    background-image: url("/images/swirl_pattern.png");
+
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: #4aaaa5;
+}
+
+.container {
+
+}
+
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+}
+
+#main-bio {
+    float: left;
+
+}
