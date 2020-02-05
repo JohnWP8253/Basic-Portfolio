@@ -4,9 +4,8 @@
 
 body {
     width: 960px;
-    background-image: url('../images/swirl_pattern.png');
+    background-image: url('images/swirl_pattern.png');
     /* background-color: black; */
-    background-repeat: repeat;
 }
 
 header {
