@@ -4,8 +4,9 @@
 
 body {
     width: 960px;
-    background-image: url('images/swirl_pattern.png');
+    background-image: url("swirl_pattern.png");
     /* background-color: black; */
+    margin: auto;
 }
 
 header {
@@ -16,8 +17,29 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.nav li {
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40px;
+}
+
 .container {
     font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+}
+
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+}
+
+.wrapper_port {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
 }
 
 h2 {
