@@ -4,7 +4,10 @@
 
 body {
     width: 960px;
-    background-image: url("swirl_pattern.png");
+    background-image: url("../../images/swirl_pattern.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-color: black; */
     margin: auto;
 }
@@ -15,6 +18,7 @@ header {
     color: white;
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* float: left; */
 }
 
 .nav li {
@@ -23,6 +27,7 @@ header {
     height: 60px;
     line-height: 60px;
     padding: 0 40px;
+    /* float: right; */
 }
 
 .container {
