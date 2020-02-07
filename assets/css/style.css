@@ -34,17 +34,24 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     margin: auto;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 .wrapper {
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     margin: auto;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 .wrapper_port {
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
+    margin: auto;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 h2 {
@@ -62,11 +69,69 @@ h2 {
     margin-right: 30px;
 }
 
-.port_images {
-    width: 272px;
-    height: 204px;
+.hangman {
+    width: 350px;
+    height: 350px;
+    float: left;
 }
 
-footer {
+.hangman_label {
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+}
+
+.rpg-game {
+    width: 350px;
+    height: 350px;
+    float:  right;
+}
+
+.rpg_label {
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+}
+
+.trivia {
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+
+.trivia_label {
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+}
+
+.rutgers {
+    width: 350px;
+    height: 350px;
+    float:  right;
+}
+
+.rutgers_label {
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+}
+
+.rock {
+    width: 350px;
+    height: 350px;
+    float: left;
+}
+
+.rock_label {
+    background: #4aaaa5;
+    color: white;
+    width: 350px;
+}
+
+.footer 
+.push {
     text-align: center;
+    height: 50px;
+    margin-top: -50px;
 }
