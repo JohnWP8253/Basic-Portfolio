@@ -33,6 +33,11 @@ header {
   float: right;
 }
 
+.nav-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 p {
     color: #777777;
 }
@@ -80,6 +85,7 @@ a {
 
 h2 {
   color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .contact__form {
