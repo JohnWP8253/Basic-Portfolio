@@ -7,6 +7,9 @@ body {
   background: url("../../images/swirl_pattern.png");
   margin: auto;
 }
+html,body {
+  height: 100%;
+}
 
 .page_top {
   width: 100%;
@@ -55,6 +58,11 @@ a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+a:hover, a:active {
+  background-color: #777777;
+  color: #dddddd;
+}
+
 
 .container {
   font-family: Arial, Helvetica, sans-serif;
@@ -151,13 +159,14 @@ h2 {
 .label {
   background: #4aaaa5;
   color: white;
+  margin: right;
   width: 350px;
   height: 220px;
   float: left;
   margin-top: 20px;
   margin-bottom: 25px;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .label img {
@@ -222,4 +231,8 @@ h2 {
   font: 12px;
   position: fixed;
   bottom: 0;
+}
+
+.copy {
+
 }
